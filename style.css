@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+/* font-family: 'Raleway', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+/* font-family: 'Open Sans', sans-serif; */
+
+:root {
+    --font-size: 12px;
+    --Very-Dark-Blue: hsl(243, 87%, 12%);
+    --Desaturated-Blue: hsl(238, 22%, 44%);
+    --Bright-Blue: hsl(224, 93%, 58%);
+    --Moderate-Cyan: hsl(170, 45%, 43%);
+    --Light-Grayish-Blue: hsl(240, 75%, 98%);
+    --Light-Gray: hsl(0, 0%, 75%);
+  }
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+  }
+
+header{
+    display:flex;
+    gap:20px;
+}
+ .second-header{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    gap:10px;
+ } 
+ .image1 img{
+    width:300px;
+    height:300px;
+ }
+.image1{
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+.text1{
+    text-align: center;
+}
+.text1 label{
+  border: 2px solid var(--Very-Dark-Blue);
+  padding:10px;
+  width:300px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+.text1 button{
+  background-color: var(--Bright-Blue);
+  color: var(--Light-Gray);
+  padding:10px;
+  margin:1rem 2.5rem;
+  border-radius: 4px;
+}
+.text1 .box{
+  display:flex;
+  flex-direction: column;
+  
+}
+.image2{
+  justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+
+}
+.image2 img{
+  width:300px;
+  height:300px;
+}
+.text2{
+  text-align: center;
+  margin-top: 40px;
+}
+.howitworks{
+  margin-top: 40px;
+  text-align: center;
+  position:relative
+}
+.link{
+  color: var(--Moderate-Cyan);
+}
+.arrow{
+  position:absolute;
+  bottom:-70.5%;
+  right:28%;
+}
+.testimony{
+  background-color: var(--Light-Grayish-Blue);
+  margin: 3rem 2.5rem;
+  font:1em;
+  gap:2px;
+
+}
+.testimony p{
+  margin: 1rem 1rem;
+  font-size: small;
+
+}
+.comma{
+  margin-top: 30px;
+  margin-left: 1rem;
+}
+.icon{
+  display:flex;
+  align-items: center;
+  gap:10px;
+  margin-bottom: 3rem;
+}
+.icon h5{
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+}
+.kyle{
+  border-radius: 80px;
+  width:50px;
+  margin-bottom: 3rem;
+  margin-left: 1rem;
+}
+.works{
+  background-color: var(--Desaturated-Blue);
+  text-align: center;
+  padding:20px;
+}
+.box2{
+  margin-top: 30px;
+}
+.box2 label{
+  border: 2px solid var(--Light-Gray);
+  background-color: var(--Light-Gray);
+  padding:10px;
+  margin-top:2rem;
+  border-radius: 4px;
+}
+.works button{
+  background-color: var(--Bright-Blue);
+  color: var(--Light-Gray);
+  padding:10px;
+  margin:0rem 1rem;
+  border-radius: 4px;
+  width:180px;
+}
+.works h3{
+  padding:20px;
+  font-size: 2em;
+  color: var(--Light-Gray);
+}
+.works p{
+  padding:15px;
+  font-size: 1em;
+  color: var(--Light-Gray);
+}
+footer{
+  background-color: var(--Very-Dark-Blue);
+  position: relative;
+ 
+}
+.firstfooter{
+  color:var(--Light-Gray);
+  text-align:start;
+
+}
+.firstfooter p{
+  margin-left: 6rem;
+  gap:5px;
+  padding:10px;
+  font-size: 1.5rem;
+}
+.logo3{
+  color: var(--Light-Gray);
+  filter:invert(100%);
+  margin: 4rem 2rem 2rem 2rem;
+}
+
+
+.phone{
+
+  position:absolute;
+  top:165px;
+  left:58px;
+}
+.email{
+
+  position: absolute;
+  top: 215
+  px;
+  left:58px;
+}
+.text4{
+  color: var(--Light-Gray);
+  padding: 20px;
+  gap:10px;
+  margin-left: 10px;
+  font-size: 1.5rem;
+}
+
+
+
+@media screen and (min-width: 280px) {
+ .desktopfirsty{
+  display:none;
+ }
+  .desktopsecondy{
+    display:none;
+  }
+ 
+  }
+
+    @media screen and (min-width: 768px) {
+      .desktopfirsty{
+        display:flex !important;
+        max-width: 1440px;
+        gap:30px;
+       }
+
+      .firsty{
+        display:none;
+      }
+      footer{display:none;}
+      header{
+        justify-content: space-between;
+        margin: 2rem 6rem;
+      }
+      .second-header{
+        padding:20px;
+        display: flex;
+      }
+      .desktopfirsty img{
+        width:600px;
+      
+      }
+      .dtext1{
+        margin: 2rem 6rem;
+        font-size:1.5em;        
+
+      }
+      .dbox{
+        display:flex;
+        gap:10px;
+        align-content: center;
+        justify-content: center;
+      }
+      .dbox label{
+        border: 2px solid var(--Light-Gray);
+        background-color: var(--Light-Gray);
+        padding:5px;
+        margin-top:2rem;
+        border-radius: 4px;
+        width:400px;
+      }
+      .dbox button{
+        background-color: var(--Bright-Blue);
+        color: var(--Light-Gray);
+        border-radius: 4px;
+        width:200px;
+        height:40px;
+        margin-top: 2rem;
+      }
+        .desktopsecondy{
+          display: flex !important;
+        }
+       .secondy{
+        display:flex;
+        background-color: var(--Light-Grayish-Blue);
+        flex-direction: row-reverse;
+        justify-content: start;
+        align-items: flex-start;
+        max-width:auto;
+        gap:30px;
+       }
+       .secondy .text2{
+        margin: 1rem 6rem;
+        font-size:1.5em; 
+        text-align: start;
+       }
+       .image2 img{
+        width:600px;
+        height:500px
+
+       }
+       .howitworks .link{
+        margin-right:10px;
+        border:3px solid green;
+        text-align: start;
+        justify-content: right;
+        
+       }
+       .boxx{
+        margin:2rem 6rem;
+        width:50%;
+       }
+        .workss{
+          display:flex;
+          background-color:var(--Desaturated-Blue);
+          width:auto;
+          /* justify-content: space-between; */
+
+        
+        
+        }
+        .works{
+         width:750px;
+         font-size:1.5em;
+         margin-top: 6rem;
+        }
+        .box2{
+          width:100%;
+          font-size:1em;
+          margin-top: 12rem;
+          margin-left: 6rem;
+        }
+        .box2 label{
+            border: 2px solid black;
+            background-color: var(--Light-Gray);
+            padding:10px;
+            margin-top:6rem;
+            border-radius: 4px;
+           
+            margin-left: 6rem;
+        }
+        .boxx2 button{
+         background-color: var(--Bright-Blue);
+         color: var(--Light-Gray);
+         border-radius: 4px;
+         width:130px;
+         height:40px;
+         margin-left: 12rem;
+        } 
+      }
